@@ -1,0 +1,120 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+nav {
+  background-color: #000000 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  height: 70px;
+  box-shadow: 0 1px 9px 0 #00e4ff;
+  position: relative;
+}
+nav img {
+  position: absolute;
+  left: 70px;
+  scale: 1.2;
+}
+.Othermenu {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #00c6ff;
+}
+.mainpage {
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.mainpage p {
+  font-size: 24px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  margin-top: 0px;
+  color: rgb(222, 222, 222);
+}
+.produits {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 40px 20px;
+}
+.produitsvitrine {
+  background-color: #1a1a1a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 30%;
+  margin-bottom: 30px;
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.produitsvitrine:hover {
+  transform: scale(105%);
+  z-index: 1;
+}
+.produitsvitrine:not(:hover) {
+  transform: scale(100%);
+}
+.produitsvitrine img {
+  width: 100%;
+  border-radius: 10px;
+}
+.produitsvitrine h3 {
+  font-size: 24px;
+  color: #00c6ff;
+  margin-top: 15px;
+}
+.produitsvitrine p {
+  font-size: 18px;
+  color: #d1d1d1;
+  margin: 10px 0;
+}
+.produitsvitrine .price {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ff7ec2;
+}
+.produitsvitrine button {
+  background-color: #00c6ff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+.produitsvitrine button:hover {
+  background-color: #0098cc;
+}
+footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 297px;
+}
+span {
+  color: #de29ae;
+  font-size: larger;
+  font-weight: 1000;
+}
+.Team {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

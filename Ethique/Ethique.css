@@ -1,0 +1,50 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+nav {
+  background-color: #000000 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+  height: 70px;
+  box-shadow: 0 1px 9px 0 #00e4ff;
+  position: relative;
+}
+nav img {
+  position: absolute;
+  left: 70px;
+  scale: 1.2;
+}
+.Othermenu {
+  color: #ffffff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 23px;
+  transition: color 0.3s;
+}
+nav a:hover {
+  color: #00c6ff;
+}
+footer {
+  background-color: #1f1f1f;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+span {
+  color: #de29ae;
+  font-size: larger;
+  font-weight: 1000;
+}
+main {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
